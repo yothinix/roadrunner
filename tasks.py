@@ -36,5 +36,5 @@ def pytest(c):
 
 
 @task(pre=[black, isort, flake8, pytest])
-def test(c):
+def build(c):
     print("---finishing build---")
