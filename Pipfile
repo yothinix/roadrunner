@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flake8-bugbear = "==19.3.0"
+pytest = "==4.5.0"
+isort = "==4.3.18"
+black = "==19.3b0"
+
+[requires]
+python_version = "3.7"
